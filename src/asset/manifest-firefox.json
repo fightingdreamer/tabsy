@@ -1,0 +1,24 @@
+{
+  "name": "Tabsy",
+  "version": "0.1",
+  "description": "filter, dump, and load tabs",
+  "icons": {
+    "16": "icon/16x16.png",
+    "48": "icon/48x48.png",
+    "128": "icon/128x128.png"
+  },
+  "action": {
+    "default_icon": "icon/128x128.png",
+    "default_title": "Tabsy",
+    "default_popup": "popup/index.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{fac1c0b4-24d7-4970-8da5-9a420d7ffaa8}"
+    }
+  },
+  "manifest_version": 3
+}

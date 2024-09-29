@@ -1,0 +1,16 @@
+{
+  "name": "tabsy",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/chrome": "^0.0.272",
+    "@types/firefox-webext-browser": "^120.0.4",
+    "tailwindcss": "^3.4.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun run ./build.ts"
+  },
+  "type": "module"
+}

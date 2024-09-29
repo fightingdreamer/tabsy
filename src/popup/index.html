@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html class="bg-gray-100">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body class="flex flex-col w-[600px] h-[350px] bg-white items-stretch p-2 gap-2">
+  <div class="flex gap-3 select-none">
+    <label class="flex gap-1"><input name="include-title" type="checkbox" checked />Include title</label>
+    <label class="flex gap-1"><input name="include-other-windows" type="checkbox" />Include other
+      windows</label>
+    <input class="ml-auto px-1 border rounded-md hover:bg-gray-100 active:bg-gray-200" type="text" name="filter"
+      placeholder="filter by url" />
+  </div>
+  <textarea name="strachpad" class="grow border rounded-md resize-none px-1 py-0.5 whitespace-pre"></textarea>
+  <div class="flex gap-3 select-none">
+    <button
+      class="self-start px-1 border rounded-md hover:bg-gray-100 active:bg-gray-200 cursor-pointer disabled:opacity-50"
+      type="button" name="open-in-tabs" disabled>Open above URLs in new tabs</button>
+    <button
+      class="self-start px-1 border rounded-md hover:bg-gray-100 active:bg-gray-200 cursor-pointer disabled:opacity-50"
+      type="button" name="open-in-discarded-tabs" disabled>Open above URLs in new tabs (lazy)</button>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
